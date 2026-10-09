@@ -2,33 +2,41 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    background-color: #f4f4f4;
-    color: #333333;
+    background-color: #ffffff;
+    color: #111111;
 }
 
 /* 4. Thẻ header: chỉnh background-color */
 header {
-    background-color: #1a365d;
+    background-color: #0d2b45;
     color: #ffffff;
     padding: 20px;
 }
 
 /* 5. Thẻ nav: chỉnh background-color */
 nav {
-    background-color: #2b6cb0;
+    background-color: #203c56;
     padding: 10px;
+}
+
+/* Đổi màu link trong nav sang trắng để tương phản chuẩn 100% */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* 6. Thẻ main: chỉnh background-color và font-size */
 main {
     background-color: #ffffff;
+    color: #111111;
     font-size: 18px;
     padding: 20px;
 }
 
 /* 7. Thẻ footer: chỉnh background-color */
 footer {
-    background-color: #1a365d;
+    background-color: #0d2b45;
     color: #ffffff;
     text-align: center;
     padding: 15px;
@@ -37,21 +45,24 @@ footer {
 /* 8. Thẻ li: chỉnh display và width */
 li {
     display: inline-block;
-    width: 120px;
+    width: 150px;
 }
 
 /* 9. Thẻ h1: chỉnh text-align, font-family và color */
 h1 {
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, sans-serif;
     color: #ffffff;
 }
 
 /* 10. Thẻ p: chỉnh line-height */
 p {
     line-height: 1.6;
+    color: #111111;
 }
-nav a {
-    color: #ffffff;
-    text-decoration: none;
+
+/* Màu chữ cho các liên kết trong phần main */
+main a {
+    color: #0044cc;
+    text-decoration: underline;
 }
