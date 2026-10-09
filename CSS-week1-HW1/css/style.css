@@ -66,3 +66,8 @@ main a {
     color: #0044cc;
     text-decoration: underline;
 }
+nav a, nav a:visited, nav a:active {
+    color: #ffffff !important;
+    text-decoration: none;
+    font-weight: bold;
+}
